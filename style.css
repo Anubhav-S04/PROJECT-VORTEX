@@ -259,3 +259,12 @@ footer{
     display:flex ;
     gap: 20px;
 }
+.flitem{
+
+    cursor: pointer;
+}
+.flitem:hover{
+    color: #08dadd;
+    transition: color 0.3s ease-in-out;
+    text-decoration: underline  #08dadd ;
+}
