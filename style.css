@@ -281,6 +281,7 @@ footer{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+
 }
 #logo2 {
     width: 50px;
@@ -288,15 +289,17 @@ footer{
     border-radius: 50%;
 }
 .part1{cursor: pointer;}
-.part1::after{
 
-}
 .dropdownmenuicon:hover{
     fill:#00fbff
 }
-.part3 {
-    cursor: pointer;
+.part2 img,
+.part3 svg {
+    display: block;   /* removes the inline baseline gap */
+    vertical-align: middle; 
+    /* extra safety */
 }
+
 .accounticon:hover {
     fill: #00fbff;
 }
@@ -337,7 +340,7 @@ footer{
 
 
 .hamburger-icon {
-  display: block;
+  display: flex;
 }
 .close-icon {
   display: none;
@@ -347,7 +350,7 @@ footer{
   display: none;
 }
 .part1.active .close-icon {
-  display: block;
+  display: flex;
 }
 
 
