@@ -334,6 +334,24 @@ footer{
 }
 
 
+
+
+.hamburger-icon {
+  display: block;
+}
+.close-icon {
+  display: none;
+}
+
+.part1.active .hamburger-icon {
+  display: none;
+}
+.part1.active .close-icon {
+  display: block;
+}
+
+
+
 @media (max-width:1028px){
     .navbar{
         font-size: small;
