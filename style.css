@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -128,17 +130,59 @@ body {
     color: white;
     font-family: Poppins, sans-serif;
 }
-.box{
+.boxcontainer{
     width:80%;
 
     height: 600px;
-    background-color: rgba(255, 255, 255, 0.1);
+    /* background-color: rgba(255, 255, 255, 0.105); */
+    background-image: url('contentbg.jpeg');
+    background-size: cover;
+    background-position: center;
     border-radius: 20px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: flex-start;
     font-size: 44px;
     color: white;
+    padding: 30px;
+   
+}
+.insideboxcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+  
+
+}
+.contentpart1 {
+    font-weight: 500;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+}
+.contentpart2 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.contentpart3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #173b6c;
+    cursor: pointer;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: Rajdhani, sans-serif;
+
+}
+.contentpart3:hover {
+    background-color: #08dadd;
+    color: white;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 
