@@ -340,7 +340,7 @@ footer{
 .part2 img,
 .part3 svg {
     display: block;   /* removes the inline baseline gap */
-    vertical-align: middle; 
+    /* vertical-align: middle;  */
     /* extra safety */
 }
 
